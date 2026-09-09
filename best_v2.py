@@ -90,12 +90,12 @@ BROJ_SVIH_KOMBINACIJA = math.comb(
 
 
 LOTO_CSV = (
-    "/Users/4c/Desktop/GHQ/data/"
+    "/data/"
     "loto7_4682_k72_loto_2963.csv"
 )
 
 LOTO_PLUS_CSV = (
-    "/Users/4c/Desktop/GHQ/data/"
+    "/data/"
     "loto7_4682_k72_loto_plus_1719.csv"
 )
 
@@ -2658,7 +2658,7 @@ Ukupno mogućih kombinacija: 15,380,937
 ==============================================================================
 OBRADA: Loto
 ==============================================================================
-CSV: /Users/4c/Desktop/GHQ/data/loto7_4682_k72_loto_2963.csv
+CSV: /data/loto7_4682_k72_loto_2963.csv
 Broj redova: 2,963
 Prvi red se tretira kao najstariji.
 Poslednji red se tretira kao najnoviji.
@@ -2803,12 +2803,12 @@ Holdout prosek pogodaka:           1.234401
 
 Poslednji režim:                   3
 Zaključani NEXT rang:              8,760,705
-NEXT:                              05, 06, 10, 14, 17, 25, 28
+NEXT:                              05, x, 10, y, 17, z, 28
 
 ==============================================================================
 OBRADA: Loto Plus
 ==============================================================================
-CSV: /Users/4c/Desktop/GHQ/data/loto7_4682_k72_loto_plus_1719.csv
+CSV: /data/loto7_4682_k72_loto_plus_1719.csv
 Broj redova: 1,719
 Prvi red se tretira kao najstariji.
 Poslednji red se tretira kao najnoviji.
@@ -2953,13 +2953,13 @@ Holdout prosek pogodaka:           1.319767
 
 Poslednji režim:                   1
 Zaključani NEXT rang:              5,133,559
-NEXT:                              03, 04, 06, 07, 12, 14, 23
+NEXT:                              03, x, 06, y, 12, z, 23
 
 ##############################################################################
 KONAČNE NEXT PREDIKCIJE
 ##############################################################################
-Loto:      05, 06, 10, 14, 17, 25, 28
-Loto Plus: 03, 04, 06, 07, 12, 14, 23
+Loto:      05, x, 10, y, 17, z, 28
+Loto Plus: 03, x, 06, y, 12, z, 23
 
 Ukupno vreme: 22.67 sekundi
 """
